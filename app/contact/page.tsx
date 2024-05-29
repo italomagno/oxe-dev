@@ -8,7 +8,7 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <RiTiktokLine size={20} />,
-		href: "https://tiktok.com/italomagno_",
+		href: "https://tiktok.com/@italomagno_",
 		label: "Tiktok",
 		handle: "@italomagno_",
 	},
