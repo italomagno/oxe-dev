@@ -1,27 +1,28 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Twitter ,} from "lucide-react";
+import { RiTiktokLine } from "react-icons/ri";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <RiTiktokLine size={20} />,
+		href: "https://tiktok.com/italomagno_",
+		label: "Tiktok",
+		handle: "@italomagno_",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:italomagno10@gmail.com",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "italomagno10@gmail.com",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/italomagno",
 		label: "Github",
-		handle: "chronark",
+		handle: "italomagno",
 	},
 ];
 

@@ -6,24 +6,24 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "oxedev.com.br",
+    template: "%s | oxedev.com.br",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Brazilian developer, using Next.js, TailwindCSS and TypeScript to develope web applications.",
   openGraph: {
-    title: "chronark.com",
+    title: "oxedev.com.br",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Brazilian developer, using Next.js, TailwindCSS and TypeScript to develope web applications.",
+    url: "https://oxedev.com.br",
+    siteName: "oxedev.com.br",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://oxedev.com.br/og.png",
         width: 1920,
         height: 1080,
       },
     ],
-    locale: "en-US",
+    locale: "pt-BR",
     type: "website",
   },
   robots: {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Oxe-Dev",
     card: "summary_large_image",
   },
   icons: {
