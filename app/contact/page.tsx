@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Twitter ,} from "lucide-react";
+import { Github, Mail} from "lucide-react";
 import { RiTiktokLine } from "react-icons/ri";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
