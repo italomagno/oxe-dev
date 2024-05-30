@@ -1,4 +1,5 @@
 "use client";
+import { Icon } from "@/app/components/icon";
 import { ArrowLeft, Eye, Github, Twitter } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
@@ -53,7 +54,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 				}`}
 			>
 				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
-					<div className="flex justify-between gap-8">
+					<div className="flex justify-between gap-8 items-center">
 						<span
 							title="View counter for this page"
 							className={`duration-200 hover:font-medium flex items-center gap-1 ${
@@ -67,18 +68,18 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								views,
 							)}
 						</span>
-						<Link target="_blank" href="https://twitter.com/chronark_">
-							<Twitter
-								className={`w-6 h-6 duration-200 hover:font-medium ${
+						<Link  href="/">
+							<Icon
+								className={`w-12 h-12 bg-clip-content fill-current duration-200 hover:font-medium ${
 									isIntersecting
 										? " text-zinc-400 hover:text-zinc-100"
 										: "text-zinc-600 hover:text-zinc-900"
 								} `}
 							/>
 						</Link>
-						<Link target="_blank" href="https://github.com/chronark">
+						<Link target="_blank" href="https://github.com/italomagno">
 							<Github
-								className={`w-6 h-6 duration-200 hover:font-medium ${
+								className={`w-6 h-6 my-auto duration-200 hover:font-medium ${
 									isIntersecting
 										? " text-zinc-400 hover:text-zinc-100"
 										: "text-zinc-600 hover:text-zinc-900"

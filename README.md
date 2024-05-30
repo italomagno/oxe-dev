@@ -1,25 +1,30 @@
-<div align="center">
-    <a href="https://chronark.com"><h1 align="center">chronark.com</h1></a>
+> [!IMPORTANT]
+> My professional and academic journey started with a Physics degree at UFRPE, marked by a passion for solving complex problems. I excelled academically, becoming valedictorian, reflecting dedication and purpose. A research project on inextensible balloons using Visual Python opened the door to technology. After graduation, I expanded my programming skills at the School of Aeronautics Specialists, developing an app for air traffic controllers, which received recognition. Returning to Recife, I deepened my knowledge in JavaScript and Google Apps Script, creating impactful data management solutions. Currently, I’m transitioning to tech, working on flight data analysis in Northeast aviation, eager to innovate and make a difference.
 
-My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref=chronark.com), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
+
+
+<div align="center">
+    <div align="center">
+        <a href="https://oxedev.com.br">
+            <img src="public/white_logo_transparent_background.png" width="228" align="center" style="transition: color 0.3s ease-in-out;">
+        </a>
+    </div>
+
+My personal Portifólio, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref=oxedev.com.br), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
 
 </div>
 
 <br/>
 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/upstash/clone?demo-title=Next.js%20Portfolio%20with%20Pageview%20Counter&demo-description=Portfolio%20site%20with%20pageview%20counter%2C%20built%20with%20Next.js%2013%20App%20Router%2C%20Contentlayer%2C%20and%20Upstash%20Redis.&demo-url=https%3A%2F%2Fchronark.com%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F1DA8n5a6WaP9p1FXf9LmUY%2Fc6264fa2732355787bf657df92dda8a1%2FCleanShot_2023-04-17_at_14.17.37.png&project-name=Next.js%20Portfolio%20with%20Pageview%20Counter&repository-name=nextjs-portfolio-pageview-counter&repository-url=https%3A%2F%2Fgithub.com%2Fchronark%2Fchronark.com&from=templates&integration-ids=oac_V3R1GIpkoJorr6fqyiwdhl17)
-
 ## Running Locally
 
 
 ```sh-session
-git clone https://github.com/chronark/chronark.com.git
-cd chronark.com
+git clone https://github.com/italomagno/oxe-dev.git
 ```
 
 
-Create a `.env` file similar to [`.env.example`](https://github.com/chronark/chronark.com/blob/main/.env.example).
 
 Then install dependencies and run the development server:
 ```sh-session
@@ -31,3 +36,9 @@ pnpm dev
 ## Cloning / Forking
 
 Please remove all of my personal information (projects, images, etc.) before deploying your own version of this site.
+
+
+## Credits
+
+This project was inspired by chronark.com. Special thanks to the author for providing a lot of ideas and inspiration for this project.
+

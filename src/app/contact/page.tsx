@@ -6,12 +6,7 @@ import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
-	{
-		icon: <RiTiktokLine size={20} />,
-		href: "https://tiktok.com/@italomagno_",
-		label: "Tiktok",
-		handle: "@italomagno_",
-	},
+	
 	{
 		icon: <Mail size={20} />,
 		href: "mailto:italomagno10@gmail.com",
@@ -24,6 +19,13 @@ const socials = [
 		label: "Github",
 		handle: "italomagno",
 	},
+	{
+		icon: <RiTiktokLine size={20} />,
+		href: "https://tiktok.com/@italomagno_",
+		label: "Tiktok",
+		handle: "@italomagno_",
+	},
+	
 ];
 
 export default function Example() {
