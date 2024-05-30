@@ -8,6 +8,7 @@ type Props = {
 };
 
 export const Article: React.FC<Props> = ({ project, views }) => {
+	
 	return (
 		<Link href={`/projects/${project.slug}`}>
 			<article className="p-4 md:p-8">
