@@ -2,4 +2,4 @@
 
 
 
-export const allProjects = []
+export const allPages = []
