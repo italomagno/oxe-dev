@@ -1,5 +1,5 @@
 "use client";
-import { Icon } from "@/app/components/icon";
+import IconComponent  from "@/app/components/iconComponent";
 import { ArrowLeft, Eye, Github, Twitter } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
@@ -69,7 +69,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 							)}
 						</span>
 						<Link  href="/">
-							<Icon
+							<IconComponent
 								className={`w-12 h-12 bg-clip-content fill-current duration-200 hover:font-medium ${
 									isIntersecting
 										? " text-zinc-400 hover:text-zinc-100"
