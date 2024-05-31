@@ -22,7 +22,7 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./*"],
-      "contentlayer/generated": ["src/.contentlayer/generated"]  
+      ".contentlayer/generated": ["src/.contentlayer/generated"]
 
     }
   },

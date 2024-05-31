@@ -16,7 +16,7 @@ var computedFields = {
 };
 var Project = defineDocumentType(() => ({
   name: "Project",
-  filePathPattern: "./projects/**/*.mdx",
+  filePathPattern: "projects/**/*.mdx",
   contentType: "mdx",
   fields: {
     published: {
@@ -44,7 +44,7 @@ var Project = defineDocumentType(() => ({
 }));
 var Page = defineDocumentType(() => ({
   name: "Page",
-  filePathPattern: "pages/**/*.mdx",
+  filePathPattern: "./src/pages/**/*.mdx",
   contentType: "mdx",
   fields: {
     title: {
@@ -58,7 +58,7 @@ var Page = defineDocumentType(() => ({
   computedFields
 }));
 var contentlayer_config_default = makeSource({
-  contentDirPath: "./content",
+  contentDirPath: "./src/content",
   documentTypes: [Page, Project],
   mdx: {
     remarkPlugins: [remarkGfm],
@@ -98,4 +98,4 @@ export {
   Project,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-AD7PLTJR.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-LKQLHRVJ.mjs.map

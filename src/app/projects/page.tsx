@@ -1,16 +1,17 @@
 import Link from "next/link";
 import React from "react";
-import { allProjects } from ".contentlayer/generated";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import { Article } from "./article";
 import { Eye } from "lucide-react";
-import { Redis } from "@upstash/redis";
+import { allProjects } from "@/../.contentlayer/generated";
+import { Redis } from "@upstash/redis/nodejs";
 
 const redis = Redis.fromEnv();
 
 export const revalidate = 60;
 export default async function ProjectsPage() {
+
   const views = (
     await redis.mget<number[]>(
       ...allProjects.map((p) => ["pageviews", "projects", p.slug].join(":")),
@@ -20,9 +21,9 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "unkey")!;
-  const top2 = allProjects.find((project) => project.slug === "planetfall")!;
-  const top3 = allProjects.find((project) => project.slug === "highstorm")!;
+  const featured = allProjects.find((project) => project.slug === "chatbot")!;
+  const top2 = allProjects.find((project) => project.slug === "shiftapp")!;
+  const top3 = allProjects.find((project) => project.slug === "total")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
