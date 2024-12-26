@@ -31,14 +31,3 @@ Then install dependencies and run the development server:
 pnpm install
 pnpm dev
 ```
-
-
-## Cloning / Forking
-
-Please remove all of my personal information (projects, images, etc.) before deploying your own version of this site.
-
-
-## Credits
-
-This project was inspired by chronark.com. Special thanks to the author for providing a lot of ideas and inspiration for this project.
-
